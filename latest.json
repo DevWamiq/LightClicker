@@ -1,8 +1,8 @@
 {
-  "latest_version": "1.1.0",
-  "minimum_supported_version": "1.1.0",
+  "latest_version": "1.1.1",
+  "minimum_supported_version": "1.1.1",
   "force_update": true,
-  "download_url": "https://github.com/DevWamiq/LightClicker/releases/download/v1.1.0/LightClicker-Setup-v1.1.0.exe",
-  "portable_url": "https://github.com/DevWamiq/LightClicker/releases/download/v1.1.0/LightClicker-Windows-v1.1.0.exe",
-  "release_notes": "Toggle/Hold mode, update checker, refined UI, and PC Tools by Wamiq website upgrade."
+  "download_url": "https://github.com/DevWamiq/LightClicker/releases/download/v1.1.1/LightClicker-Setup-v1.1.1.exe",
+  "portable_url": "https://github.com/DevWamiq/LightClicker/releases/download/v1.1.1/LightClicker-Windows-v1.1.1.exe",
+  "release_notes": "LightClicker v1.1.1 update log:\n\u2022 Added professional Saved Positions mode.\n\u2022 Added multiple click points in one list.\n\u2022 Added Cycle All mode to rotate through saved positions.\n\u2022 Added Selected Only mode to click one saved point.\n\u2022 Added easier Click Location names: Follow Mouse, Type Coordinates, Choose From Screen, Saved Positions.\n\u2022 Added visible saved-position controls: ADD, CHOOSE, DELETE, CLEAR.\n\u2022 Added cleaner update notification with change logs.\n\u2022 Added first-run update log after installing.\n\u2022 Improved installer flow: Welcome, License, Start Menu Folder, Additional Tasks, Ready to Install, Install, Finish.\n\u2022 Improved icon handling for title bar, taskbar, installer, and shortcuts.\n\u2022 Improved website motion speed and smoothness.\n\u2022 Bug fixes and stability checks for click modes, hotkeys, and CPS input."
 }
