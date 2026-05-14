@@ -1,0 +1,9 @@
+{
+  "latest_version": "1.0.0",
+  "minimum_supported_version": "1.0.0",
+  "force_update": false,
+  "download_url": "https://github.com/DevWamiq/LightClicker/releases/download/cpslab-v1.0.0/CPSLab-Setup-v1.0.0.exe",
+  "portable_url": "https://github.com/DevWamiq/LightClicker/releases/download/cpslab-v1.0.0/CPSLab-Windows-v1.0.0.exe",
+  "release_notes": "CPS Lab v1.0.0 is the first official release: local click-only CPS testing, high-CPS smooth rendering, result lock, rank popup, best results, installer, and separate update system.",
+  "website_url": "https://devwamiq.github.io/LightClicker/#cpslab-download"
+}
