@@ -133,3 +133,16 @@ footer { border-top:1px solid var(--border); margin-top:34px; }
   .hero, .tools, .feature, .download { grid-template-columns: 1fr; }
   .nav { flex-direction: column; align-items:flex-start; }
 }
+
+
+.tool-logo { width:48px; height:48px; border-radius:15px; object-fit:cover; background:var(--panel-2); box-shadow:0 0 28px rgba(68,200,255,.18); }
+.cps-feature .metricbox img { width:88px; height:88px; border-radius:24px; display:block; margin:0 auto 18px; box-shadow:0 0 34px rgba(68,200,255,.25); }
+.cps-feature .metricbox .big { font-size:70px; }
+.preview-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; align-items:start; }
+.downloads-two { grid-template-columns: .75fr 1.25fr; }
+.download-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.downloadbox h3 { margin:0 0 14px; font-size:22px; }
+@media (max-width: 980px) {
+  .preview-grid, .download-grid { grid-template-columns:1fr; }
+  .downloads-two { grid-template-columns:1fr; }
+}
