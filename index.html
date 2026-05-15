@@ -5,12 +5,12 @@
   <meta name="google-site-verification" content="8GI3gy0aZtM8UiBPKU5fvkWzkp7snbPicULzhNzC8eU" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PC Tools by Wamiq</title>
-  <meta name="description" content="PC Tools by Wamiq is a growing collection of clean Windows utilities for automation, speed, testing, and productivity. Download LightClicker and CPS Lab from one official hub." />
+  <meta name="description" content="Official PC Tools by Wamiq website for LightClicker, CPS Lab, and TimerForge — clean Windows utilities for clicking, testing, automation, and timer control." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="orb one"></div>
-  <div class="orb two"></div>
+  <canvas id="pc-fluid-canvas" class="pc-fluid-bg" aria-hidden="true"></canvas>
+  <div class="site-shade" aria-hidden="true"></div>
 
   <div class="wrap">
     <header class="nav">
@@ -25,162 +25,146 @@
         <a href="#tools">Tools</a>
         <a href="#lightclicker">LightClicker</a>
         <a href="#cpslab">CPS Lab</a>
-        <a href="#preview">Preview</a>
+        <a href="#timerforge">TimerForge</a>
         <a href="#download">Download</a>
         <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms</a>
       </nav>
     </header>
 
-    <section class="hero">
-      <div>
-        <span class="badge">Official software hub • Made by Wamiq</span>
-        <h2>Fast, clean PC tools built for Windows.</h2>
-        <p class="sub">PC Tools by Wamiq is one official hub for lightweight desktop utilities. LightClicker and CPS Lab are separate apps, but they live together under the same clean Windows tools brand.</p>
-        <div class="actions">
-          <a class="btn primary" href="#lightclicker-download">Download LightClicker</a>
-          <a class="btn secondary" href="#cpslab-download">Download CPS Lab</a>
-          <a class="btn secondary" href="#tools">Explore Tools</a>
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="badge">Official software hub • Made by Wamiq</span>
+          <h2>Clean PC tools built for Windows.</h2>
+          <p class="sub">A focused collection of lightweight desktop utilities for speed, testing, control, and everyday PC workflows. Each app stays separate, stable, and update-safe.</p>
+          <div class="actions">
+            <a class="btn primary" href="#download">Download Tools</a>
+            <a class="btn secondary" href="#tools">Explore Tools</a>
+          </div>
+          <div class="tags">
+            <span>Windows utilities</span>
+            <span>Autoclicker</span>
+            <span>CPS testing</span>
+            <span>Timer resolution</span>
+            <span>Separate updates</span>
+          </div>
         </div>
-        <div class="tags">
-          <span>⚡ Up to 1000 CPS</span>
-          <span>📍 Multi-position clicking</span>
-          <span>🎯 Pick from Screen</span>
-          <span>🧪 Local CPS testing</span>
-          <span>📊 Result ranks</span>
-          <span>🛡️ Separate app updates</span>
+        <div class="card screenshot-shell hero-shot">
+          <img src="assets/timerforge-screenshot-final.png" alt="TimerForge app screenshot" />
         </div>
-      </div>
-      <div class="card screenshot-shell">
-        <img src="assets/lightclicker-screenshot-final.png" alt="LightClicker app screenshot" />
-      </div>
-    </section>
+      </section>
 
-    <section id="tools" class="section">
-      <span class="eyebrow">Tool collection</span>
-      <h2>One website. Multiple useful PC tools.</h2>
-      <p class="lead">This stays as the original PC Tools / LightClicker website. CPS Lab is added here as the second official tool, without creating a second public website.</p>
-      <div class="tools">
-        <article class="tool panel">
-          <div class="top"><span class="icon">⚡</span><span class="status live">Available</span></div>
-          <h3>LightClicker</h3>
-          <p>Clean Windows autoclicker with Windows Turbo mode, Toggle/Hold mode, follow mouse mode, fixed X/Y coordinates, screen picker, update checker, and up to 1000 CPS.</p>
-          <a href="#lightclicker-download">Download now</a>
-        </article>
-        <article class="tool panel">
-          <div class="top"><img class="tool-logo" src="assets/cpslab-icon.png" alt="CPS Lab icon" /><span class="status live">Available</span></div>
-          <h3>CPS Lab</h3>
-          <p>Local CPS testing utility for timed click tests, auto-clicker benchmarking, live CPS stats, rank results, and smooth high-CPS testing without browser lag.</p>
-          <a href="#cpslab-download">Download now</a>
-        </article>
-        <article class="tool panel">
-          <div class="top"><span class="icon">⏱️</span><span class="status soon">Coming soon</span></div>
-          <h3>Timer Resolution Tool</h3>
-          <p>A lightweight Windows timing utility planned for performance tuning and response testing workflows.</p>
-          <a href="#tools">Planned tool</a>
-        </article>
-        <article class="tool panel">
-          <div class="top"><span class="icon">⌨️</span><span class="status soon">Coming soon</span></div>
-          <h3>Macro Tool</h3>
-          <p>A future macro utility for safe personal automation, shortcuts, and productivity tasks.</p>
-          <a href="#tools">Planned tool</a>
-        </article>
-      </div>
-    </section>
+      <section id="tools" class="section">
+        <span class="eyebrow">Tool collection</span>
+        <h2>Three focused apps. One clean brand.</h2>
+        <p class="lead">PC Tools by Wamiq keeps every utility independent while sharing one polished design language, professional installer flow, and official download hub.</p>
 
-    <section id="lightclicker" class="section card feature">
-      <div>
-        <span class="eyebrow">Featured tool</span>
-        <h2>LightClicker v1.1.1</h2>
-        <p>LightClicker is a compact Windows autoclicker designed for practical use, clean controls, and honest performance. It includes Windows Turbo mode, Precision mode, Low CPU mode, Toggle/Hold activation, custom hotkeys, multi-position clicking, Emergency Stop, and update checking.</p>
-        <div class="pills">
-          <span>Toggle / Hold mode</span>
-          <span>Follow Mouse clicking</span>
-          <span>Type Coordinates</span>
-          <span>Choose From Screen</span>
-          <span>Windows Turbo engine</span>
-          <span>Saved Positions</span>
-          <span>Cycle All</span>
-          <span>Update checker</span>
-        </div>
-      </div>
-      <div class="metricbox">
-        <div class="big">1000</div>
-        <p>CPS maximum target</p>
-        <small>LightClicker schedules click attempts. Actual accepted clicks can still depend on Windows, hardware, permissions, and the target app.</small>
-      </div>
-    </section>
+        <div class="tools">
+          <article class="tool panel">
+            <div class="top"><img class="tool-logo" src="assets/lightclicker-icon.png" alt="LightClicker icon" /><span class="status live">Available</span></div>
+            <h3>LightClicker</h3>
+            <p>Fast Windows autoclicker with Turbo mode, Toggle/Hold mode, custom hotkeys, saved positions, coordinate controls, and emergency stop.</p>
+            <a href="#lightclicker-download">Download LightClicker</a>
+          </article>
 
-    <section id="cpslab" class="section card feature cps-feature">
-      <div>
-        <span class="eyebrow">New tool</span>
-        <h2>CPS Lab v1.0.0</h2>
-        <p>CPS Lab is a local high-CPS testing utility made for smooth click testing without browser lag. It includes click-only timed tests, live CPS, average CPS, peak CPS, total clicks, button counters, result lock, rank popup, best results, copy/export support, and its own separate update notification file.</p>
-        <div class="pills">
-          <span>Click-only testing</span>
-          <span>Timed tests</span>
-          <span>Live CPS stats</span>
-          <span>Rank results</span>
-          <span>Best results</span>
-          <span>Copy / Export</span>
-          <span>Local Windows app</span>
-          <span>Separate updates</span>
-        </div>
-      </div>
-      <div class="metricbox cps-metric">
-        <img src="assets/cpslab-icon.png" alt="CPS Lab app icon" />
-        <div class="big">1000+</div>
-        <p>high-CPS local testing</p>
-        <small>CPS Lab is a separate app from LightClicker. Its updater uses /cpslab/latest.json so it does not touch LightClicker's /latest.json.</small>
-      </div>
-    </section>
+          <article class="tool panel">
+            <div class="top"><img class="tool-logo" src="assets/cpslab-icon.png" alt="CPS Lab icon" /><span class="status live">Available</span></div>
+            <h3>CPS Lab</h3>
+            <p>Local CPS testing utility with timed tests, live stats, peak CPS, consistency, rank results, best runs, and smooth local rendering.</p>
+            <a href="#cpslab-download">Download CPS Lab</a>
+          </article>
 
-    <section id="preview" class="section">
-      <span class="eyebrow">App preview</span>
-      <h2>Actual screenshots on the website.</h2>
-      <p class="lead">Visitors can see the real LightClicker and CPS Lab interfaces before downloading.</p>
-      <div class="preview-grid" style="margin-top:24px;">
-        <div class="card screenshot-shell">
-          <img src="assets/lightclicker-screenshot-final.png" alt="LightClicker app screenshot large preview" />
-        </div>
-        <div class="card screenshot-shell">
-          <img src="assets/cpslab-screenshot-final.png" alt="CPS Lab app screenshot large preview" />
-        </div>
-      </div>
-    </section>
+          <article class="tool panel">
+            <div class="top"><img class="tool-logo" src="assets/timerforge-icon.png" alt="TimerForge icon" /><span class="status live">Available</span></div>
+            <h3>TimerForge</h3>
+            <p>Windows timer resolution utility with simple Optimize and Default controls, live timer display, auto-restore, and separate updates.</p>
+            <a href="#timerforge-download">Download TimerForge</a>
+          </article>
 
-    <section id="download" class="section card download downloads-two">
-      <div>
-        <span class="eyebrow">Download</span>
-        <h2>Download PC Tools for Windows.</h2>
-        <p>Each app stays separate. LightClicker and CPS Lab have their own installers, GitHub release files, and update JSON files while sharing this one official website.</p>
-      </div>
-      <div class="download-grid">
-        <div class="downloadbox" id="lightclicker-download">
-          <h3>LightClicker</h3>
-          <a class="main" href="https://github.com/DevWamiq/LightClicker/releases/download/v1.1.1/LightClicker-Setup-v1.1.1.exe">
-            Download LightClicker for Windows
-            <span>LightClicker-Setup-v1.1.1.exe</span>
-          </a>
-          <a class="alt" href="https://github.com/DevWamiq/LightClicker/releases/download/v1.1.1/LightClicker-Windows-v1.1.1.exe">Portable version: LightClicker-Windows-v1.1.1.exe</a>
-          <p style="font-size:13px; color:#7185a3; margin:16px 0 0;">Version 1.1.1 • Windows • Update file: /latest.json</p>
+          <article class="tool panel muted-card">
+            <div class="top"><span class="icon">⌨️</span><span class="status soon">Planned</span></div>
+            <h3>Macro Tool</h3>
+            <p>A future utility for controlled personal automation, productivity shortcuts, and safe macro workflows.</p>
+            <a href="#tools">Coming later</a>
+          </article>
         </div>
-        <div class="downloadbox" id="cpslab-download">
-          <h3>CPS Lab</h3>
-          <a class="main" href="https://github.com/DevWamiq/LightClicker/releases/download/cpslab-v1.0.0/CPSLab-Setup-v1.0.0.exe">
-            Download CPS Lab for Windows
-            <span>CPSLab-Setup-v1.0.0.exe</span>
-          </a>
-          <a class="alt" href="https://github.com/DevWamiq/LightClicker/releases/download/cpslab-v1.0.0/CPSLab-Windows-v1.0.0.exe">Portable version: CPSLab-Windows-v1.0.0.exe</a>
-          <p style="font-size:13px; color:#7185a3; margin:16px 0 0;">Version 1.0.0 • Windows • Update file: /cpslab/latest.json</p>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section card notice">
-      <h2>Safe-use notice</h2>
-      <p>PC Tools by Wamiq is intended for productivity, testing, accessibility, and personal automation where automation is allowed. Do not use these tools for cheating, spam, abuse, bypassing protections, or violating the rules of games, websites, apps, or services.</p>
-    </section>
+      <section id="lightclicker" class="section card feature">
+        <div>
+          <span class="eyebrow">Autoclicker</span>
+          <h2>LightClicker v1.1.1</h2>
+          <p>LightClicker is a compact Windows autoclicker built for clean controls and practical use. It supports Windows Turbo mode, Precision mode, Low CPU mode, Toggle/Hold activation, saved positions, screen picking, and update checking.</p>
+          <div class="pills"><span>Toggle / Hold</span><span>Saved Positions</span><span>Windows Turbo</span><span>Emergency Stop</span></div>
+        </div>
+        <div class="metricbox"><div class="big">1000</div><p>CPS target</p><small>Accepted clicks depend on Windows, hardware, permissions, and the target app.</small></div>
+      </section>
+
+      <section id="cpslab" class="section card feature">
+        <div>
+          <span class="eyebrow">CPS testing</span>
+          <h2>CPS Lab v1.0.0</h2>
+          <p>CPS Lab is a local Windows CPS tester made for smooth click-speed testing without browser lag. It includes click-only tests, live CPS, average CPS, peak CPS, total clicks, button counters, rank results, and best-run history.</p>
+          <div class="pills"><span>Click-only testing</span><span>Timed tests</span><span>Rank results</span><span>Best runs</span></div>
+        </div>
+        <div class="metricbox icon-metric"><img src="assets/cpslab-icon.png" alt="CPS Lab app icon" /><div class="big">Local</div><p>CPS testing</p><small>Built for direct Windows testing.</small></div>
+      </section>
+
+      <section id="timerforge" class="section card feature">
+        <div>
+          <span class="eyebrow">Timer resolution</span>
+          <h2>TimerForge v1.0.0</h2>
+          <p>TimerForge shows the current Windows timer resolution and gives simple control over high-precision timing. Use Optimize to request the best supported timer resolution, then Default to release TimerForge when finished.</p>
+          <div class="pills"><span>Optimize</span><span>Default</span><span>Live status</span><span>Auto-restore</span><span>Separate updater</span></div>
+        </div>
+        <div class="metricbox icon-metric"><img src="assets/timerforge-icon.png" alt="TimerForge app icon" /><div class="big">0.5</div><p>ms target</p><small>Supported values depend on Windows and hardware.</small></div>
+      </section>
+
+      <section id="preview" class="section">
+        <span class="eyebrow">App preview</span>
+        <h2>Actual app screenshots.</h2>
+        <p class="lead">Real interface previews for each app, kept clean and readable.</p>
+        <div class="preview-grid">
+          <div class="card screenshot-shell"><img src="assets/lightclicker-screenshot-final.png" alt="LightClicker app screenshot preview" /></div>
+          <div class="card screenshot-shell"><img src="assets/cpslab-screenshot-final.png" alt="CPS Lab app screenshot preview" /></div>
+          <div class="card screenshot-shell"><img src="assets/timerforge-screenshot-final.png" alt="TimerForge app screenshot preview" /></div>
+        </div>
+      </section>
+
+      <section id="download" class="section card download">
+        <div class="download-intro">
+          <span class="eyebrow">Download</span>
+          <h2>Download PC Tools for Windows.</h2>
+          <p>Install only what you need. Each tool has its own release and update file behind the scenes.</p>
+        </div>
+
+        <div class="download-grid">
+          <div class="downloadbox" id="lightclicker-download">
+            <h3>LightClicker</h3>
+            <a class="main" href="https://github.com/DevWamiq/LightClicker/releases/download/v1.1.1/LightClicker-Setup-v1.1.1.exe">Download LightClicker<span>LightClicker-Setup-v1.1.1.exe</span></a>
+            <a class="alt" href="https://github.com/DevWamiq/LightClicker/releases/download/v1.1.1/LightClicker-Windows-v1.1.1.exe">Portable version</a>
+          </div>
+
+          <div class="downloadbox" id="cpslab-download">
+            <h3>CPS Lab</h3>
+            <a class="main" href="https://github.com/DevWamiq/LightClicker/releases/download/cpslab-v1.0.0/CPSLab-Setup-v1.0.0.exe">Download CPS Lab<span>CPSLab-Setup-v1.0.0.exe</span></a>
+            <a class="alt" href="https://github.com/DevWamiq/LightClicker/releases/download/cpslab-v1.0.0/CPSLab-Windows-v1.0.0.exe">Portable version</a>
+          </div>
+
+          <div class="downloadbox" id="timerforge-download">
+            <h3>TimerForge</h3>
+            <a class="main" href="https://github.com/DevWamiq/LightClicker/releases/download/timerforge-v1.0.0/TimerForge-Setup-v1.0.0.exe">Download TimerForge<span>TimerForge-Setup-v1.0.0.exe</span></a>
+            <a class="alt" href="https://github.com/DevWamiq/LightClicker/releases/download/timerforge-v1.0.0/TimerForge-Windows-v1.0.0.exe">Portable version</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section card notice">
+        <h2>Use responsibly.</h2>
+        <p>PC Tools by Wamiq is intended for lawful productivity, testing, accessibility, performance checking, and personal workflows where automation or timing control is allowed. Do not use these tools for cheating, spam, abuse, bypassing protections, or violating rules of third-party services.</p>
+      </section>
+    </main>
 
     <footer>
       <div class="footer">
@@ -191,7 +175,10 @@
           <a href="eula.html">EULA</a>
         </div>
       </div>
+      <p class="third-party-note">Fluid background includes MIT-licensed WebGL fluid simulation attribution in assets/FLUID_SIMULATION_LICENSE.txt.</p>
     </footer>
   </div>
+
+  <script src="assets/pc-fluid.js"></script>
 </body>
 </html>
