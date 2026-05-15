@@ -1,9 +1,0 @@
-{
-  "latest_version": "1.0.0",
-  "minimum_supported_version": "1.0.0",
-  "force_update": false,
-  "download_url": "https://github.com/DevWamiq/LightClicker/releases/download/timerforge-v1.0.0/TimerForge-Setup-v1.0.0.exe",
-  "portable_url": "https://github.com/DevWamiq/LightClicker/releases/download/timerforge-v1.0.0/TimerForge-Windows-v1.0.0.exe",
-  "release_notes": "TimerForge v1.0.0 is the first official release: clean Optimize/Default timer control, live current/default/optimized/requested display, auto-restore on exit, external timer hold detection, professional installer, and separate update system.",
-  "website_url": "https://devwamiq.github.io/LightClicker/#timerforge-download"
-}
