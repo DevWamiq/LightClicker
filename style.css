@@ -27,7 +27,11 @@ body {
   margin: 0;
   color: var(--text);
   font-family: Inter, "Segoe UI", Arial, sans-serif;
-  background: #02060c;
+  background:
+    radial-gradient(circle at 22% 24%, rgba(46, 214, 255, 0.20), transparent 22%),
+    radial-gradient(circle at 78% 30%, rgba(68, 255, 195, 0.18), transparent 24%),
+    radial-gradient(circle at 46% 72%, rgba(94, 79, 255, 0.14), transparent 25%),
+    linear-gradient(135deg, #02060c 0%, #07111e 50%, #020a0d 100%);
   overflow-x: hidden;
 }
 
@@ -609,7 +613,7 @@ img {
     scroll-behavior: auto;
   }
   .pc-fluid-bg {
-    display: none;
+    opacity: 0.72;
   }
   .btn,
   .tool a,
